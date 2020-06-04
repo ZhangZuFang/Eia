@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.monitorjbl:xlsx-streamer:2.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.4.1/caches/modules-2/files-2.1/com.monitorjbl/xlsx-streamer/2.1.0/3dabaaaffee6c687ab00563da14196f0347c1399/xlsx-streamer-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.4.1/caches/modules-2/files-2.1/com.monitorjbl/xlsx-streamer/2.1.0/64c9b5057b6c6b4ea3ed8c8361a656eec6352155/xlsx-streamer-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.rackspace.apache:xerces2-xsd11:2.11.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.4.1/caches/modules-2/files-2.1/com.rackspace.apache/xerces2-xsd11/2.11.1/a177954cbe5f1dcf1cc04d2dd0e75deebb902f89/xerces2-xsd11-2.11.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle-5.4.1/caches/modules-2/files-2.1/com.rackspace.apache/xerces2-xsd11/2.11.1/eb3cb7a444eb0950e476670eeb3e2a4e0181014/xerces2-xsd11-2.11.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
