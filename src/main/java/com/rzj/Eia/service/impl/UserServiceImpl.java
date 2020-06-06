@@ -1,9 +1,9 @@
 package com.rzj.Eia.service.impl;
 
-import com.rzj.Application.entity.User;
-import com.rzj.Application.mapper.UserMapper;
-import com.rzj.Application.service.IUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.rzj.Eia.entity.User;
+import com.rzj.Eia.mapper.UserMapper;
+import com.rzj.Eia.service.IUserService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,7 +1,7 @@
 package com.rzj.Eia.mapper;
 
-import com.rzj.Application.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.rzj.Eia.entity.User;
 
 /**
  * <p>

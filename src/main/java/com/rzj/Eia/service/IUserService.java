@@ -1,7 +1,7 @@
 package com.rzj.Eia.service;
 
-import com.rzj.Application.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.rzj.Eia.entity.User;
 
 /**
  * <p>
