@@ -8,7 +8,7 @@ plugins {
 	id "io.spring.dependency-management" version "1.0.5.RELEASE"
 	id 'java'
 }
-group = 'com.ksj.dfm'
+group = 'com.eia'
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -16,7 +16,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-    baseName = 'dfm2-JDDaoJia'
+    baseName = 'eia'
     version = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 12
@@ -29,10 +29,11 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
-	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: '2.1.3.RELEASE'
-	compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.2.0'
+	compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.3.2'
+	compile group: 'com.baomidou', name: 'mybatis-plus-generator', version: '3.3.2'
+	compile group: 'org.apache.velocity', name: 'velocity-engine-core', version: '2.2'
 	compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.0'
 	compile group: 'com.google.code.gson', name: 'gson', version: '2.8.2'
 	compile group: 'commons-io', name: 'commons-io', version: '2.4'
@@ -42,24 +43,16 @@ dependencies {
 	compile group: 'org.beanshell', name: 'bsh', version: '2.0b4'
 	compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1'
 	compile group: 'org.glassfish.jersey.core', name: 'jersey-common', version: '2.27'
-
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools:2.1.3.RELEASE'
-	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 	compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
-	compile group: 'org.jsoup', name: 'jsoup', version: '1.7.3'
-	//runtime 'org.postgresql:postgresql:42.1.1'
-	
 	compile 'org.springframework.boot:spring-boot-starter-test'
 	compile group: 'net.lingala.zip4j', name: 'zip4j', version: '1.3.2'
 	compile group: 'com.monitorjbl', name: 'xlsx-streamer', version: '2.1.0'
 	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.56'
-	//compile group: 'org.springframework.data', name: 'spring-data-redis', version: '2.2.3.RELEASE'
-	//compile group: 'redis.clients', name: 'jedis', version: '3.2.0'
-	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.1.3.RELEASE'
 	compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
-	compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.1")
+
 	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
-	//compile group: 'io.appium', name: 'java-client', version: '7.3.0'
+
 
 
 }
