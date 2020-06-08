@@ -3,6 +3,7 @@ package com.rzj;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,11 +15,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@ComponentScan(basePackages = {"com.rzj.*"})
-@EntityScan("com.rzj.*")
-@MapperScan("com.rzj.mapper.*")
-@EnableJpaRepositories("com.rzj.*")
-@EnableScheduling
+
+//@MapperScan("com.rzj.Eia.mapper.*")
 @SpringBootApplication(scanBasePackages = {"com.rzj.*"})
 @PropertySource("classpath:application-${spring.profiles.active}.properties")
 //@PropertySource("classpath:application-Dev.properties")

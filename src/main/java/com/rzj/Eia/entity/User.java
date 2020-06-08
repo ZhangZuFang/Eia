@@ -13,7 +13,7 @@ import java.io.Serializable;
  * @author authorName
  * @since 2020-06-05
  */
-
+@TableName(value = "User")
 public class User implements Serializable {
 
     private static final long serialVersionUID=1L;
